@@ -1,0 +1,20 @@
+CREATE REPORT OR DUMPS ON DAILY, WEEKLY AND MONTHLY BASIS
+  AGENDA:
+      We have sales data available in CSV files
+      Business wants to generate report on daily, weekly, monthly basis
+          Create notebook using Databricks and give option to generate report on
+              daily
+              weekly
+              monthly basis
+
+Report / Dumps
+    Daily
+    Weekly
+    Monthly
+
+Logic Description
+    WEEKLY → If I select weekly from dropdown, automatic query should run and generate report
+    MONTHLY → If I select month, report should generate
+    DAILY → Yesterday report
+
+
